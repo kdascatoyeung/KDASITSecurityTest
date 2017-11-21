@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.Web", "ITSecurityTest.Web\ITSecurityTest.Web.csproj", "{1AA9F9F0-BBCD-4190-B23C-F8358BFFAFAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.Web", "ITSecurityTest.Web\ITSecurityTest.Web.csproj", "{1AA9F9F0-BBCD-4190-B23C-F8358BFFAFAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.Models", "ITSecurityTest.Models\ITSecurityTest.Models.csproj", "{D907D9BB-AA71-4205-96D4-CC09C6009F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.Models", "ITSecurityTest.Models\ITSecurityTest.Models.csproj", "{D907D9BB-AA71-4205-96D4-CC09C6009F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.ViewModels", "ITSecurityTest.ViewModels\ITSecurityTest.ViewModels.csproj", "{9242395A-DBB8-4ADF-8BC6-9D7D53ED1D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.ViewModels", "ITSecurityTest.ViewModels\ITSecurityTest.ViewModels.csproj", "{9242395A-DBB8-4ADF-8BC6-9D7D53ED1D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.Resources", "ITSecurityTest.Resources\ITSecurityTest.Resources.csproj", "{B646B5DA-A324-4C53-910E-6A67BC3FC27A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.Resources", "ITSecurityTest.Resources\ITSecurityTest.Resources.csproj", "{B646B5DA-A324-4C53-910E-6A67BC3FC27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.Services", "ITSecurityTest.Services\ITSecurityTest.Services.csproj", "{B5C69122-198E-4734-B1AD-42EE456DC8E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.Services", "ITSecurityTest.Services\ITSecurityTest.Services.csproj", "{B5C69122-198E-4734-B1AD-42EE456DC8E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.Tests", "ITSecurityTest.Tests\ITSecurityTest.Tests.csproj", "{4F50D5C8-4524-49D4-8509-AD9702B12559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSecurityTest.Tests", "ITSecurityTest.Tests\ITSecurityTest.Tests.csproj", "{4F50D5C8-4524-49D4-8509-AD9702B12559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSecurityTest.MappingsBetweenModelsAndViewModels", "ITSecurityTest.MappingsBetweenModelsAndViewModels\ITSecurityTest.MappingsBetweenModelsAndViewModels.csproj", "{7610D631-080F-4592-B076-6B4C084FC8EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4F50D5C8-4524-49D4-8509-AD9702B12559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F50D5C8-4524-49D4-8509-AD9702B12559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F50D5C8-4524-49D4-8509-AD9702B12559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7610D631-080F-4592-B076-6B4C084FC8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7610D631-080F-4592-B076-6B4C084FC8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7610D631-080F-4592-B076-6B4C084FC8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7610D631-080F-4592-B076-6B4C084FC8EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

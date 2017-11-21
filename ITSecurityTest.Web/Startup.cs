@@ -11,9 +11,12 @@ namespace ITSecurityTest
 {
     public class Startup
     {
+        public static object AutoMapperConfiguration { get; private set; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Mappings.AutoMapperConfiguration.Configure();
         }
 
         public IConfiguration Configuration { get; }
